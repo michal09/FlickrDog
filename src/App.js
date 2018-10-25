@@ -183,19 +183,7 @@ class App extends Component {
 
   render() {
     const { loading, filterMinDate, filterMaxDate, selectedItems, error, options } = this.state;
-    /* const options = [
-      { value: '0', label: '1: All Rights Reserved' },
-      { value: '1', label: '2: Attribution-NonCommercial-ShareAlike License' },
-      { value: '2', label: '3: Attribution-NonCommercial License' },
-      { value: '3', label: '4: Attribution-NonCommercial-NoDerivs License' },
-      { value: '4', label: '5: Attribution License' },
-      { value: '5', label: '6: Attribution-ShareAlike License' },
-      { value: '6', label: '7: Attribution-NoDerivs License' },
-      { value: '7', label: '8: No known copyright restrictions' },
-      { value: '8', label: '9: United States Government Work' },
-      { value: '9', label: '10: Public Domain Dedication (CC0)' },
-      { value: '10', label: '11: Public Domain Mark' }
-    ]; */
+    
     return (     
         <section className="section">
           <div className="columns is-multiline">
